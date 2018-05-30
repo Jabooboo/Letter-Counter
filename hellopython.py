@@ -27,3 +27,22 @@ alphabet = {'a' : 1,
             'z' : 26,}
 name_split = list(name)
 print(name_split)
+name_length = (len(name_split))
+print(name_length, "\n")
+
+for i in range(name_length):
+    result = alphabet[name_split[i]]
+    print(result)
+
+'''Now I have no clue how to add the results of the loop into one whole number on one line.
+from
+2
+18
+25
+1
+14
+
+to
+
+60
+'''
