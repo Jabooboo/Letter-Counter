@@ -1,3 +1,4 @@
+import sys
 alphabet = {'a' : 1,
             'b' : 2,
             'c' : 3,
@@ -24,7 +25,7 @@ alphabet = {'a' : 1,
             'x' : 24,
             'y' : 25,
             'z' : 26,}
-name = 'You can put any letter in here and it returns a value'
+name = 'bryan'
 phrase = ''.join(name.split())
 lower =  phrase.lower()
 name_split = list(lower)
@@ -32,19 +33,7 @@ print(name_split)
 name_length = (len(name_split))
 print(name_length, "\n")
 
+result = 0
 for i in range(name_length):
-    result = alphabet[name_split[i]]
+    result = result + alphabet[name_split[i]]
     print(result)
-
-'''Now I have no clue how to add the results of the loop into one whole number on one line.
-from
-2
-18
-25
-1
-14
-
-to
-
-60
-'''
