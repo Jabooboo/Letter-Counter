@@ -1,4 +1,3 @@
-name = 'bryan'
 alphabet = {'a' : 1,
             'b' : 2,
             'c' : 3,
@@ -25,7 +24,10 @@ alphabet = {'a' : 1,
             'x' : 24,
             'y' : 25,
             'z' : 26,}
-name_split = list(name)
+name = 'You can put any letter in here and it returns a value'
+phrase = ''.join(name.split())
+lower =  phrase.lower()
+name_split = list(lower)
 print(name_split)
 name_length = (len(name_split))
 print(name_length, "\n")
