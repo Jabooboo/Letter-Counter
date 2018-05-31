@@ -25,7 +25,7 @@ alphabet = {'a' : 1,
             'x' : 24,
             'y' : 25,
             'z' : 26,}
-name = 'I can put any letter here and this will create a sum of numbers corresponding to each letter'
+name = sys.stdin.readline()
 phrase = ''.join(name.split())
 lower =  phrase.lower()
 name_split = list(lower)
